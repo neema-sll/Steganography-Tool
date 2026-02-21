@@ -1,0 +1,23 @@
+# Core dependencies
+Pillow>=9.0.0
+numpy>=1.21.0
+cryptography>=3.4.8,<4.0.0  # Specify compatible versio
+
+# Testing dependencies
+pytest>=7.0.0          # Testing framework
+pytest-cov>=3.0.0      # Test coverage reporting
+pytest-xdist>=2.5.0    # Parallel test execution
+pytest-timeout>=2.1.0  # Test timeout handling
+
+# Development tools
+flake8>=4.0.0          # Code linting
+black>=22.0.0          # Code formatting
+mypy>=0.950            # Static type checking
+
+# Security tools (optional)
+bandit>=1.7.0          # Security linter
+safety>=2.0.0          # Dependency vulnerability checker
+
+# Build tools
+build>=0.9.0           # Package building
+twine>=4.0.0           # Package uploading
