@@ -17,7 +17,6 @@ A comprehensive steganography tool with GUI, CLI, encryption, and database persi
 - [Algorithm Details](#-algorithm-details)
 - [Security Features](#-security-features)
 - [Testing](#-testing)
-- [Assessment Criteria](#-assessment-criteria)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -74,3 +73,4 @@ pip install -r requirements.txt
 # Install the package
 
 pip install -e .
+
