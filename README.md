@@ -2,7 +2,6 @@
 
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code Coverage](https://img.shields.io/codecov/c/github/yourusername/steganography-tool)](https://codecov.io/gh/yourusername/steganography-tool)
 
 A comprehensive steganography tool with GUI, CLI, encryption, and database persistence. Hide secret data within images using custom LSB (Least Significant Bit) algorithm with AES encryption.
 
@@ -73,5 +72,6 @@ pip install -r requirements.txt
 # Install the package
 
 pip install -e .
+
 
 
