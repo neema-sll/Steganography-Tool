@@ -1,4 +1,4 @@
-# 🔒 Secure Data Hider - Steganography Tool
+# Secure Data Hider - Steganography Tool
 
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,7 @@
 
 A comprehensive steganography tool with GUI, CLI, encryption, and database persistence. Hide secret data within images using custom LSB (Least Significant Bit) algorithm with AES encryption.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
@@ -20,7 +20,7 @@ A comprehensive steganography tool with GUI, CLI, encryption, and database persi
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Custom LSB Algorithm**: Proprietary steganography implementation (no built-in libraries)
@@ -30,13 +30,13 @@ A comprehensive steganography tool with GUI, CLI, encryption, and database persi
 - **Multi-threading**: Optimized performance for large images
 
 ### Interfaces
-- **🖥️ GUI Application**: Form-based Tkinter interface with 4 tabs
+- ** GUI Application**: Form-based Tkinter interface with 4 tabs
   - Encode tab: Hide data in images
   - Decode tab: Extract hidden data
   - History tab: View operation logs
   - Settings tab: Configure application
 
-- **⌨️ CLI Interface**: Full command-line support for automation
+- ** CLI Interface**: Full command-line support for automation
   - Encode: `stegano-cli encode -i image.jpg -t "secret"`
   - Decode: `stegano-cli decode -i stego.png`
   - Capacity: `stegano-cli capacity -i image.jpg`
@@ -55,7 +55,7 @@ A comprehensive steganography tool with GUI, CLI, encryption, and database persi
 - **CI/CD Pipeline**: Automated testing on GitHub Actions
 - **Code Quality**: Linting, formatting, type checking
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -73,4 +73,5 @@ pip install -r requirements.txt
 # Install the package
 
 pip install -e .
+
 
