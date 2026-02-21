@@ -1,7 +1,5 @@
 # 🔒 Secure Data Hider - Steganography Tool
 
-[![Python Tests](https://github.com/neema-sll/Steganography-Tool/actions/workflows/python-tests.yml/badge.svg)](https://github.com/neema-sll/Steganography-Tool/actions/workflows/python-tests.yml)
-[![CodeQL](https://github.com/neema-sll/Steganography-Tool/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/neema-sll/Steganography-Tool/actions/workflows/codeql-analysis.yml)
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Coverage](https://img.shields.io/codecov/c/github/yourusername/steganography-tool)](https://codecov.io/gh/yourusername/steganography-tool)
@@ -74,4 +72,5 @@ cd steganography-tool
 pip install -r requirements.txt
 
 # Install the package
+
 pip install -e .
